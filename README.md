@@ -37,25 +37,33 @@ We applied both under-sampling and oversampling techniques, using classifiers li
 
 Logistic Regression and Random Forest Classifiers achieved the highest accuracy (95%), with Logistic Regression having the highest ROC score (0.98). Logistic Regression performed exceptionally well in recall for fraudulent transactions. Neural Networks were also explored, with the oversampled dataset showing higher accuracy but lower recall compared to the undersampled dataset.
 
-image image
+![image](https://github.com/user-attachments/assets/ac47fd5d-3666-47e9-8eb7-1f40bf0f5c44)
+
 
 Figure 1: Bar chart showing the unbalanced dataset (left) and the balanced dataset after under-sampling (right).
 
-image
+![image](https://github.com/user-attachments/assets/1abd046c-433f-41b2-8b50-26b727cb41f9)
+
 
 Figure 2: Confusion matrix of Logistic regression on oversampled vs other classifiers on the under-sampled dataset.
 
-image
+![image](https://github.com/user-attachments/assets/2e561dbe-543e-4971-84f3-94fef015b1d7)
+
 
 Figure 3: Confusion matrix on a neural network model fitted on the under-sampled dataset.
 
-image
+![Uploading image.png…]()
+
 
 Figure 4: Confusion matrix on a neural network model fitted on the over-sampled dataset.
 
+
 5. Future Work
+   
 Addressing outliers to enhance model accuracy.
 Evaluating classifiers on oversampled datasets with higher computing power.
 Improving Neural Network models for better fraud prediction.
+
 6. Conclusion
+   
 The Logistic Regression model demonstrated superior performance in detecting credit card fraud. It outperformed other classifiers, especially in recall for fraudulent transactions. Neural Networks on the undersampled dataset showed promising results, emphasizing the potential for effective fraud detection. These findings can benefit fraud detection agencies in mitigating credit card fraud.
