@@ -52,7 +52,8 @@ Figure 2: Confusion matrix of Logistic regression on oversampled vs other classi
 
 Figure 3: Confusion matrix on a neural network model fitted on the under-sampled dataset.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/81fc5124-c46a-41a0-8fbf-9a371e6edf7d)
+
 
 
 Figure 4: Confusion matrix on a neural network model fitted on the over-sampled dataset.
